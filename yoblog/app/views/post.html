@@ -1,0 +1,21 @@
+<form ng-submit="save(post)">
+    <fieldset>
+        <div class="form-group">
+            <label for="postAuthorInput">Author</label>
+            <input class="form-control" id="postAuthorInput" placeholder="Name and last name" ng-model="post.author">
+        </div>
+        <div class="form-group">
+            <label for="postTitleInput">Title</label>
+            <input class="form-control" id="postTitleInput" placeholder="Title" ng-model="post.title">
+        </div>
+        <div class="form-group">
+            <label for="postContentInput">Content</label>
+            <textarea class="form-control" rows="5" id="postContentInput" ng-model="post.content"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </fieldset>
+</form>
+<br>
+<div ng-show="showInfo || showError" ng-class="{'alert-danger': showError, 'alert-info': showInfo}" class="alert" role="alert">
+    <p>{{message}}</p>
+</div>
