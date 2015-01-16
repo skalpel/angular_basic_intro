@@ -8,9 +8,9 @@ It provides some simple storage for the blog and its posts. It uses *Sparkjava* 
 #### How to run application
 
 There are multiple ways to do that but one of most user friendly is to:
-* On command line go to *sparking* directory and call 'mvn compile exeec:java -Dexec.mainClass="com.codeforfun.App"'
-* On command line go to *yoblog* directory and run 'grunt serve' (make sure all bower and npm components has already been installed,
-if not please run 'bower install & npm install'). It shall deploy client on embedded server and open browser with running application.
+* On command line go to *sparking* directory and call `mvn compile exec:java -Dexec.mainClass="com.codeforfun.App"`
+* On command line go to *yoblog* directory and run `grunt serve` (make sure all bower and npm components has already been installed,
+if not please run `bower install & npm install`). It shall deploy client on embedded server and open browser with running application.
 
 #### Tools used to scaffold client.
 * [Yeoman](http://yeoman.io/): Used to scaffold web applications. It supports e.g. scaffolding angular applications
